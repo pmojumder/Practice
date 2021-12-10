@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-25T06:00:36Z" name="Suite" finished-at="2021-04-25T06:01:07Z" duration-ms="31601">
+    <groups>
+    </groups>
+    <test started-at="2021-04-25T06:00:36Z" name="Test" finished-at="2021-04-25T06:01:07Z" duration-ms="31601">
+      <class name="com.automation.test.verifyLoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.test.verifyLoginTest@30c93896]" started-at="2021-04-25T06:00:36Z" name="setUp" finished-at="2021-04-25T06:00:58Z" duration-ms="22246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin()[pri:0, instance:com.automation.test.verifyLoginTest@30c93896]" started-at="2021-04-25T06:00:58Z" name="verifyLogin" finished-at="2021-04-25T06:01:07Z" duration-ms="9293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="clean()[pri:0, instance:com.automation.test.verifyLoginTest@30c93896]" started-at="2021-04-25T06:01:07Z" name="clean" finished-at="2021-04-25T06:01:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+      </class> <!-- com.automation.test.verifyLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

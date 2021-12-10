@@ -1,0 +1,120 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-08T16:47:46.076Z",
+        "before": [
+          {
+            "result": {
+              "duration": 18338166700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.Stepdef.Hooks.setUpUITest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "verify Login",
+        "description": "",
+        "id": "amazon-login;verify-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7487369800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open Browser",
+            "match": {
+              "location": "com.automation.Stepdef.VerifyLogincheck.open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 251861300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify enter emailId \"\u003cemailId\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cemailId\u003e\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.automation.Stepdef.VerifyLogincheck.verify_enter_email_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2159450400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Continue",
+            "match": {
+              "location": "com.automation.Stepdef.VerifyLogincheck.click_on_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134923200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter Password \"\u003cPassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cPassword\u003e\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.automation.Stepdef.VerifyLogincheck.enter_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135922400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on Sign",
+            "match": {
+              "location": "com.automation.Stepdef.VerifyLogincheck.click_on_sign()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "io.cucumber.java.PendingException: TODO: implement me\r\n\tat com.automation.Stepdef.VerifyLogincheck.login_successful(VerifyLogincheck.java:43)\r\n\tat ✽.Login Successful(file:///C:/Users/PC/eclipse-workspace/Practice/src/test/resources/Features/AmazonLogin.feature:10)\r\n",
+              "duration": 4996500,
+              "status": "pending"
+            },
+            "line": 10,
+            "name": "Login Successful",
+            "match": {
+              "location": "com.automation.Stepdef.VerifyLogincheck.login_successful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Login",
+    "description": "  Author: Plabani",
+    "id": "amazon-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/AmazonLogin.feature",
+    "tags": []
+  }
+]
